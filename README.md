@@ -1,4 +1,8 @@
+<img src="https://raw.githubusercontent.com/skmalikllc/automation-portfolio/main/assets/cover-automation-cases.png" alt="cover" width="100%">
+
 # Workflow Automation — client case studies
+
+`SANITIZED CLIENT CASE STUDIES`
 
 **Project type:** Sanitized client case studies
 **Evidence sources:** completed Upwork contracts (5.0), completed Fiverr orders and reviews, historical account audit
@@ -52,6 +56,20 @@ that service in the account history.
 **Tools.** Zapier · n8n · Make.com
 
 ---
+
+## The diagnostic that comes up most
+
+```mermaid
+flowchart LR
+  A[Automation stopped] --> B{Logic error?}
+  B -- no --> C[Check every external reference]
+  C --> D[View / table / field / endpoint IDs]
+  D --> E[Stale reference found]
+  E --> F[Repoint + verify]
+```
+
+Nothing is wrong with the workflow. Something it *refers to* moved, and the
+platform's error message does not say so.
 
 ## Implementation notes
 
