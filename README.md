@@ -61,11 +61,11 @@ that service in the account history.
 
 ```mermaid
 flowchart LR
-  A[Automation stopped] --> B{Logic error?}
-  B -- no --> C[Check every external reference]
-  C --> D[View / table / field / endpoint IDs]
-  D --> E[Stale reference found]
-  E --> F[Repoint + verify]
+  A["Automation stopped"] --> B{"Logic error?"}
+  B -- no --> C["Check every external reference"]
+  C --> D["View / table / field / endpoint IDs"]
+  D --> E["Stale reference found"]
+  E --> F["Repoint + verify"]
 ```
 
 Nothing is wrong with the workflow. Something it *refers to* moved, and the
