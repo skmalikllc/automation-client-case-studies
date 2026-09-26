@@ -48,12 +48,30 @@ so. The fix is tracing the reference, not rebuilding the workflow.
 
 **Tools.** Make.com · Airtable
 
-### Zapier / n8n / Make automation — Fiverr
+### n8n / Make automation builds — Fiverr
 
-Automation orders delivered through Fiverr, with client reviews recorded against
-that service in the account history.
+Automation orders delivered through Fiverr under a single service line, with
+client reviews recorded against it in the account history.
 
-**Tools.** Zapier · n8n · Make.com
+`AUDITED 26 SEPTEMBER 2026`
+
+| | |
+|---|---|
+| Completed orders in this service line | **6** |
+| Of those, carrying a buyer rating | **2** |
+| Ratings observed | all 5 stars |
+| Largest single engagement observed | $345 |
+| Reviewed window | February 2025 – September 2026 |
+
+Counted from the 103 of 221 completed orders individually reviewed before the
+platform presented a human-verification step and the audit stopped. Further
+orders in this line may exist among the remaining 118; they are not estimated.
+
+**Architecture is not described for these six.** The audit recorded the service
+line, date, value and rating — not the node chains. Rather than reconstruct a
+workflow diagram from a service title, they are counted and left at that.
+
+**Tools.** n8n · Make.com
 
 ---
 
@@ -84,4 +102,5 @@ No client names, no credentials, no webhook secrets, no workflow exports.
 ## Related
 
 - [contact-dedupe-mcp](https://github.com/skmalikllc/contact-dedupe-mcp) — open-source tool, the data-cleaning half of this work
+- [fiverr-project-archive](https://github.com/skmalikllc/fiverr-project-archive) — full engagement accounting
 - [automation-portfolio](https://github.com/skmalikllc/automation-portfolio)
